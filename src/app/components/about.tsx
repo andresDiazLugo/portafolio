@@ -20,12 +20,11 @@ export default function About() {
             </div>
             <div>
                 <p className='  text-[1.7rem] text-text-color'>
-                    Hola mi nombre es Alberto Andres, Soy tecnico analista de Sistemas,
-                    analista Programador y Desarrollador Web cuento con manejos de varios
-                    lenguages como Javascript, PHP, Python, C# como tambien manejos de los siguientes
-                    frameworks Laravel, Django, Tkinter, React, Nextjs, Angular, ABP framework, Asp.net,
-                    tengo conocimientos en gestionamiento y desarrollo de software y sistemas, programacion,
-                    modelado y gestionamiento de base de datos
+                Hola, mi nombre es Alberto Andrés. Soy técnico analista de sistemas, analista programador y desarrollador web. Cuento con manejo de varios lenguajes como JavaScript, PHP, Python, C#, así como de los siguientes frameworks: Laravel, Django, Tkinter, React, Next.js, Angular, ABP Framework y ASP.NET.
+
+                Tengo conocimientos en gestión y desarrollo de software y sistemas, programación, modelado y gestión de bases de datos. Actualmente, trabajo en Gravitad (consultoría y servicios a empresas) como encargado de proyectos y frontend developer. Me encuentro desarrollando proyectos MVP (Minimum Viable Product). Por políticas de empresa, no puedo compartir el repositorio de código, pero puedo mostrar videos sobre los proyectos. Para esto, debes contactarte conmigo y solicitarlos si deseas revisarlos.
+
+                Si necesitas más ajustes o mejoras, no dudes en decirme.
                 </p>
             </div>
             {/* <button className=' pl-9 pr-9 pt-3 pb-3 bg-main-color text-[1.7rem] text-white rounded-lg animate-wiggle animate-infinite animate-ease-in-out '>Saber mas</button> */}
