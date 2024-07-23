@@ -17,6 +17,7 @@ export default function Contactme() {
   const { reset, register, handleSubmit, formState: { errors } } = useForm<IFormInput>();
 
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
+    setLoading(true)
     var templateParams = {
       from_name: data.user_email ,
       message: `Nombre: ${data.user_name}, ${data.message}`,
@@ -24,7 +25,6 @@ export default function Contactme() {
     emailjs.send('service_kdi8p2v', 'template_6fzl7ge', templateParams, 'FudkQNjkySXUxvHSx')
       .then(
         () => {
-          setLoading(true)
           toast.success('El mensaje fue enviado con éxito', {
             position: "top-center",
             autoClose: 5000,
