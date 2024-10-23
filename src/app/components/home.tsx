@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
 import Image from "next/image"
-import home from "../../../public/home.png";
+import profile from "../../../public/profile.png";
 export default function Home() {
   const downloadCv = () => {
     const link = document.createElement('a');
@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <section id="home" data-aos="fade-up-right"  className=' grid grid-cols-1 w-full lg:h-screen m-auto  lg:grid-cols-2 xl:grid-cols-2 xl:max-w-[90%]'>
+    <section id="home" data-aos="fade-up-right"  className='grid grid-cols-1 w-full lg:grid-cols-2 xl:grid-cols-2 mt-40 lg:mt-6'>
       <div className='flex justify-center items-center lg:p-6'>
         <div className='p-6  w-[40rem] m-auto'>
           <h2 data-aos="flip-left" data-aos-offset="500"className='text-[4rem] font-semibold text-text-color '>Hola, Me llamo</h2>
@@ -39,8 +39,10 @@ export default function Home() {
         </div>
       </div>
       <div className='relative hidden lg:block'>
-        <div className='w-full h-full z-10 relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ' style={{ clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 100%, 26% 50%)' }}>
-            <Image className=' absolute w-[10rem] top-8 left-64  lg:top-72 lg:left-80 lg:w-[40%]' src={home} alt='imagen presentacion'/>
+        <div className='w-full h-[600px] z-10 relative bg-gradient-to-r from-blue-900 via-blue-600 to-green-900' style={{ clipPath: 'polygon(0 0, 100% 0%, 100% 100%, 0 100%, 26% 50%)' }}>
+          <div className='w-full h-full absolute top-5 right-0'>
+            <Image className='w-full object-cover' src={profile} alt='imagen presentacion'/>
+          </div>
         </div>
         <div data-aos="zoom-in-left" data-aos-offset="950" className='absolute top-0 border border-main-color  rounded-[50%] w-full h-full  '>
             <div className=' w-full h-full relative rounded-[50%] '>

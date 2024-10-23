@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { IoLogoGithub } from "react-icons/io5";
 import { IoIosLink } from "react-icons/io";
@@ -26,7 +27,7 @@ export default function Portfolio({params}:Props) {
     <section id="portfolio" data-aos="flip-right" data-aos-easing="ease-out-cubic"
     data-aos-duration="1000"  className='flex flex-col gap-10 justify-center items-center mt-24'>
         <h2 className='text-[4rem] font-[700] text-text-color animate-bounce animate-infinite'>Mis <span className=' text-main-color'>proyectos</span></h2>
-        <ul  className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
+        <ul  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
             {
                 projects.map((project,index) => {
                     return <li key={index} className='relative rounded-3xl w-[30rem]  overflow-hidden  shadow-2xl p-6'>

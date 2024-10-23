@@ -41,7 +41,7 @@ const recolectDataProject = (element: {
     AOS.init();
   })
   return (
-    <main>
+    <main className="container m-auto">
       <Home/>
       <About/>
       {

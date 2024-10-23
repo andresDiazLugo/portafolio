@@ -33,10 +33,10 @@ export default function Header() {
 
         {/* Navegación para pantallas grandes */}
         <nav className={`flex lg:flex-row ${showMenu ? 'hidden' : 'flex-col'}  items-center justify-center gap-9`}>
-          <a onClick={()=>scrollToSection('home')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Home</a>
-          <a onClick={()=>scrollToSection('about')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>About</a>
-          <a onClick={()=>scrollToSection('portfolio')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Portfolio</a>
-          <a onClick={()=>scrollToSection('contact')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Contact</a>
+          <a onClick={()=>scrollToSection('home')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Inicio</a>
+          <a onClick={()=>scrollToSection('about')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Sobre Mi</a>
+          <a onClick={()=>scrollToSection('portfolio')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Proyectos</a>
+          <a onClick={()=>scrollToSection('contact')} className='text-[1.7rem] text-black font-[600] p-2 hover:bg-main-color hover:text-white cursor-pointer rounded-lg'>Contactame</a>
         </nav>
       </div>
     </header>
